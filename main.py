@@ -154,7 +154,10 @@ def PlotHistogram(df, norm,title):
     plt.xticks(range(0, 24))
     plt.legend()
     plt.show()
-
+'''
+Credits: 
+LCT14558 , Currie32 , for ideas and data exploration codes
+'''
 if __name__ == "__main__":
     # Data loading
     df = pd.read_csv("creditcard.csv")
