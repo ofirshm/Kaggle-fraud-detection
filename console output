@@ -1,0 +1,138 @@
+Fraud transactions description
+count       492.000000
+mean      80746.806911
+std       47835.365138
+min         406.000000
+25%       41241.500000
+50%       75568.500000
+75%      128483.000000
+max      170348.000000
+Name: Time, dtype: float64
+
+Normal transactions description
+count    284315.000000
+mean      94838.202258
+std       47484.015786
+min           0.000000
+25%       54230.000000
+50%       84711.000000
+75%      139333.000000
+max      172792.000000
+Name: Time, dtype: float64
+
+Fraud is 0.17304750013189596% of our data.
+
+Train and Test Size: 
+227846
+227846
+56961
+56961
+
+2018-01-23 10:07:00.507293: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2018-01-23 10:07:01.294457: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 960M major: 5 minor: 0 memoryClockRate(GHz): 1.176
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.34GiB
+2018-01-23 10:07:01.294806: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0, compute capability: 5.0)
+Epoch: 0 Acc = 0.94542 Cost = 79498.34375 Valid_Acc = 0.94607 Valid_Cost =  12249.41992
+Epoch: 10 Acc = 0.95559 Cost = 60924.18750 Valid_Acc = 0.95544 Valid_Cost =  9407.71484
+Epoch: 20 Acc = 0.96409 Cost = 45627.69922 Valid_Acc = 0.96334 Valid_Cost =  9618.73828
+Epoch: 30 Acc = 0.97885 Cost = 25233.41406 Valid_Acc = 0.97872 Valid_Cost =  22088.22266
+Epoch: 40 Acc = 0.98415 Cost = 15128.56152 Valid_Acc = 0.98353 Valid_Cost =  42411.17188
+Epoch: 50 Acc = 0.98340 Cost = 14193.34570 Valid_Acc = 0.98360 Valid_Cost =  51633.15625
+Epoch: 60 Acc = 0.98823 Cost = 9078.76074 Valid_Acc = 0.98803 Valid_Cost =  61985.36328
+Epoch: 70 Acc = 0.98544 Cost = 10623.58008 Valid_Acc = 0.98441 Valid_Cost =  56884.69922
+Epoch: 80 Acc = 0.99248 Cost = 8106.03369 Valid_Acc = 0.99221 Valid_Cost =  77069.98438
+Epoch: 90 Acc = 0.99568 Cost = 8741.97168 Valid_Acc = 0.99522 Valid_Cost =  121563.89844
+Epoch: 100 Acc = 0.99594 Cost = 5401.82422 Valid_Acc = 0.99515 Valid_Cost =  106114.52344
+Epoch: 110 Acc = 0.99694 Cost = 4824.15674 Valid_Acc = 0.99656 Valid_Cost =  150149.53125
+Epoch: 120 Acc = 0.98587 Cost = 11406.72852 Valid_Acc = 0.98508 Valid_Cost =  112894.28125
+Epoch: 130 Acc = 0.99573 Cost = 4375.06152 Valid_Acc = 0.99533 Valid_Cost =  105392.13281
+Epoch: 140 Acc = 0.99655 Cost = 10487.89062 Valid_Acc = 0.99551 Valid_Cost =  138839.31250
+Epoch: 150 Acc = 0.99569 Cost = 4396.44678 Valid_Acc = 0.99498 Valid_Cost =  144592.03125
+Epoch: 160 Acc = 0.99688 Cost = 3495.49902 Valid_Acc = 0.99645 Valid_Cost =  132392.68750
+Epoch: 170 Acc = 0.99726 Cost = 3468.36743 Valid_Acc = 0.99677 Valid_Cost =  155939.21875
+Epoch: 180 Acc = 0.99627 Cost = 4308.39600 Valid_Acc = 0.99596 Valid_Cost =  161111.15625
+Epoch: 190 Acc = 0.99756 Cost = 2837.39404 Valid_Acc = 0.99677 Valid_Cost =  172473.92188
+Epoch: 200 Acc = 0.99746 Cost = 3920.86914 Valid_Acc = 0.99677 Valid_Cost =  144950.39062
+Epoch: 210 Acc = 0.99822 Cost = 2464.61719 Valid_Acc = 0.99768 Valid_Cost =  175647.96875
+Epoch: 220 Acc = 0.99726 Cost = 3533.79419 Valid_Acc = 0.99649 Valid_Cost =  180579.87500
+Epoch: 230 Acc = 0.99631 Cost = 4268.20215 Valid_Acc = 0.99593 Valid_Cost =  175030.15625
+Epoch: 240 Acc = 0.99826 Cost = 2267.19531 Valid_Acc = 0.99782 Valid_Cost =  210107.75000
+Epoch: 250 Acc = 0.99615 Cost = 3856.29224 Valid_Acc = 0.99540 Valid_Cost =  135562.93750
+Epoch: 260 Acc = 0.99735 Cost = 3398.77197 Valid_Acc = 0.99659 Valid_Cost =  165465.06250
+Epoch: 270 Acc = 0.99825 Cost = 2286.88086 Valid_Acc = 0.99782 Valid_Cost =  163713.75000
+Epoch: 280 Acc = 0.99744 Cost = 3053.92822 Valid_Acc = 0.99702 Valid_Cost =  162248.70312
+Epoch: 290 Acc = 0.99782 Cost = 2558.77832 Valid_Acc = 0.99737 Valid_Cost =  170228.48438
+Epoch: 300 Acc = 0.99675 Cost = 3820.83350 Valid_Acc = 0.99635 Valid_Cost =  102932.51562
+Epoch: 310 Acc = 0.99843 Cost = 2045.37622 Valid_Acc = 0.99782 Valid_Cost =  135120.65625
+Epoch: 320 Acc = 0.99663 Cost = 3837.21094 Valid_Acc = 0.99603 Valid_Cost =  136746.62500
+Epoch: 330 Acc = 0.99722 Cost = 3160.23730 Valid_Acc = 0.99677 Valid_Cost =  142932.75000
+Epoch: 340 Acc = 0.99815 Cost = 2276.04980 Valid_Acc = 0.99751 Valid_Cost =  145233.06250
+Epoch: 350 Acc = 0.99774 Cost = 2720.31274 Valid_Acc = 0.99754 Valid_Cost =  115512.05469
+Epoch: 360 Acc = 0.99768 Cost = 2726.51245 Valid_Acc = 0.99740 Valid_Cost =  121983.42188
+Epoch: 370 Acc = 0.99828 Cost = 2164.93604 Valid_Acc = 0.99779 Valid_Cost =  141250.12500
+Epoch: 380 Acc = 0.99700 Cost = 3346.89966 Valid_Acc = 0.99631 Valid_Cost =  101018.64062
+Epoch: 390 Acc = 0.99687 Cost = 3435.53125 Valid_Acc = 0.99600 Valid_Cost =  120954.54688
+Epoch: 400 Acc = 0.99905 Cost = 1433.48877 Valid_Acc = 0.99842 Valid_Cost =  142601.56250
+Epoch: 410 Acc = 0.99815 Cost = 2217.44897 Valid_Acc = 0.99754 Valid_Cost =  144515.75000
+Epoch: 420 Acc = 0.99770 Cost = 2671.99316 Valid_Acc = 0.99712 Valid_Cost =  140070.98438
+Epoch: 430 Acc = 0.99870 Cost = 1841.57251 Valid_Acc = 0.99817 Valid_Cost =  154209.89062
+Epoch: 440 Acc = 0.99805 Cost = 2385.64160 Valid_Acc = 0.99737 Valid_Cost =  164321.65625
+Epoch: 450 Acc = 0.99856 Cost = 2124.34619 Valid_Acc = 0.99817 Valid_Cost =  126448.79688
+Epoch: 460 Acc = 0.99899 Cost = 1500.19849 Valid_Acc = 0.99842 Valid_Cost =  139415.23438
+Epoch: 470 Acc = 0.99869 Cost = 1815.23560 Valid_Acc = 0.99821 Valid_Cost =  122534.36719
+Epoch: 480 Acc = 0.99790 Cost = 2471.80615 Valid_Acc = 0.99744 Valid_Cost =  114265.43750
+Epoch: 490 Acc = 0.99874 Cost = 1800.49683 Valid_Acc = 0.99817 Valid_Cost =  118232.52344
+Epoch: 500 Acc = 0.99865 Cost = 1756.53821 Valid_Acc = 0.99800 Valid_Cost =  120035.86719
+Epoch: 510 Acc = 0.99846 Cost = 1987.16528 Valid_Acc = 0.99807 Valid_Cost =  113202.86719
+Epoch: 520 Acc = 0.99741 Cost = 7920.27295 Valid_Acc = 0.99698 Valid_Cost =  101811.35156
+Epoch: 530 Acc = 0.99836 Cost = 2123.49390 Valid_Acc = 0.99803 Valid_Cost =  144142.89062
+Epoch: 540 Acc = 0.99806 Cost = 2376.66821 Valid_Acc = 0.99758 Valid_Cost =  148445.28125
+Epoch: 550 Acc = 0.99616 Cost = 3811.30957 Valid_Acc = 0.99565 Valid_Cost =  117334.59375
+Epoch: 560 Acc = 0.99874 Cost = 1707.63989 Valid_Acc = 0.99821 Valid_Cost =  129844.09375
+Epoch: 570 Acc = 0.99793 Cost = 2445.65698 Valid_Acc = 0.99712 Valid_Cost =  118944.45312
+Epoch: 580 Acc = 0.99878 Cost = 1659.99231 Valid_Acc = 0.99828 Valid_Cost =  156595.46875
+Epoch: 590 Acc = 0.99841 Cost = 2092.62817 Valid_Acc = 0.99800 Valid_Cost =  135849.96875
+Epoch: 600 Acc = 0.99896 Cost = 1551.69653 Valid_Acc = 0.99856 Valid_Cost =  159420.34375
+Epoch: 610 Acc = 0.99866 Cost = 1875.57983 Valid_Acc = 0.99821 Valid_Cost =  143317.21875
+Epoch: 620 Acc = 0.99882 Cost = 1624.14624 Valid_Acc = 0.99835 Valid_Cost =  171789.76562
+Epoch: 630 Acc = 0.99736 Cost = 2892.11572 Valid_Acc = 0.99659 Valid_Cost =  107051.18750
+Epoch: 640 Acc = 0.99894 Cost = 1558.75122 Valid_Acc = 0.99807 Valid_Cost =  132448.17188
+Epoch: 650 Acc = 0.99799 Cost = 2229.22900 Valid_Acc = 0.99723 Valid_Cost =  132620.26562
+Epoch: 660 Acc = 0.99927 Cost = 1183.95801 Valid_Acc = 0.99874 Valid_Cost =  165220.20312
+Epoch: 670 Acc = 0.99868 Cost = 1821.53125 Valid_Acc = 0.99807 Valid_Cost =  146019.25000
+Epoch: 680 Acc = 0.99879 Cost = 1653.29199 Valid_Acc = 0.99835 Valid_Cost =  181870.53125
+Epoch: 690 Acc = 0.99829 Cost = 2171.78320 Valid_Acc = 0.99744 Valid_Cost =  156467.43750
+Epoch: 700 Acc = 0.99864 Cost = 1990.56104 Valid_Acc = 0.99803 Valid_Cost =  199259.79688
+Epoch: 710 Acc = 0.99701 Cost = 3351.36963 Valid_Acc = 0.99656 Valid_Cost =  203998.56250
+Epoch: 720 Acc = 0.99922 Cost = 1311.65784 Valid_Acc = 0.99881 Valid_Cost =  235582.00000
+Epoch: 730 Acc = 0.99709 Cost = 4131.68506 Valid_Acc = 0.99645 Valid_Cost =  251737.65625
+Epoch: 740 Acc = 0.99910 Cost = 1370.13135 Valid_Acc = 0.99856 Valid_Cost =  224475.62500
+Epoch: 750 Acc = 0.99883 Cost = 1638.55054 Valid_Acc = 0.99838 Valid_Cost =  224097.57812
+Epoch: 760 Acc = 0.99940 Cost = 1004.94305 Valid_Acc = 0.99898 Valid_Cost =  272942.65625
+Epoch: 770 Acc = 0.99705 Cost = 3447.60352 Valid_Acc = 0.99631 Valid_Cost =  235563.18750
+Epoch: 780 Acc = 0.99943 Cost = 1556.09595 Valid_Acc = 0.99884 Valid_Cost =  261513.84375
+Epoch: 790 Acc = 0.99908 Cost = 1335.34412 Valid_Acc = 0.99867 Valid_Cost =  210981.89062
+Epoch: 800 Acc = 0.99745 Cost = 4140.53809 Valid_Acc = 0.99670 Valid_Cost =  181803.75000
+Epoch: 810 Acc = 0.99916 Cost = 1228.93994 Valid_Acc = 0.99842 Valid_Cost =  205929.93750
+Epoch: 820 Acc = 0.99666 Cost = 10214.93945 Valid_Acc = 0.99624 Valid_Cost =  202600.57812
+Epoch: 830 Acc = 0.99739 Cost = 2768.64673 Valid_Acc = 0.99663 Valid_Cost =  196991.37500
+Epoch: 840 Acc = 0.99880 Cost = 1603.86218 Valid_Acc = 0.99846 Valid_Cost =  233102.09375
+Epoch: 850 Acc = 0.99894 Cost = 1520.19922 Valid_Acc = 0.99835 Valid_Cost =  225230.35938
+Epoch: 860 Acc = 0.99666 Cost = 3764.81226 Valid_Acc = 0.99610 Valid_Cost =  249023.03125
+Epoch: 870 Acc = 0.99917 Cost = 1267.46802 Valid_Acc = 0.99853 Valid_Cost =  305472.78125
+Epoch: 880 Acc = 0.99734 Cost = 3205.65674 Valid_Acc = 0.99709 Valid_Cost =  219676.71875
+Epoch: 890 Acc = 0.99901 Cost = 1433.47314 Valid_Acc = 0.99860 Valid_Cost =  239443.31250
+Epoch: 900 Acc = 0.99907 Cost = 1348.40857 Valid_Acc = 0.99842 Valid_Cost =  219786.32812
+Epoch: 910 Acc = 0.99723 Cost = 4276.55859 Valid_Acc = 0.99702 Valid_Cost =  208359.65625
+
+Optimization Finished!
+
+2018-01-23 10:17:40.683497: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0, compute capability: 5.0)
+Results using the best Valid_Acc:
+Training Accuracy = 0.999407
+Validation Accuracy = 0.998982
+2018-01-23 10:17:40.973823: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0, compute capability: 5.0)
+F1-Score = 0.999278689678
+Testing Accuracy = 0.99856
